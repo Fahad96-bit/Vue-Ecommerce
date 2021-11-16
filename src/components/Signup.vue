@@ -2,7 +2,7 @@
   
      <form @submit="onSubmit" class="add-form container">
        <h1 class="login-text">Signup</h1>
-    <div class="form-control">
+    <div class="formcontrol">
       
     
    
@@ -18,7 +18,7 @@
             <i class="fa fa-envelope icon"></i>
     </div>
 
-     <div class="form-control">
+     <div class="formcontrol">
       
     <v-text-field
                class="username"
@@ -33,7 +33,7 @@
            <i class="fa fa-user icon"></i>
     </div>
 
-       <div class="form-control">
+       <div class="formcontrol">
     
       <v-text-field
              class="contact"
@@ -46,7 +46,7 @@
             >   </v-text-field>
             <i class="fa fa-id-card icon"></i>
     </div>
-    <div class="form-control">
+    <div class="formcontrol">
    
        <v-text-field
             v-model="password"
@@ -213,16 +213,16 @@ h1{
 .add-form {
   margin-bottom: 40px;
 }
-.form-control {
+.formcontrol {
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 20px 0;
 }
-.form-control label {
+.formcontrol label {
   display: block;
 }
-.form-control input {
+.formcontrol input {
   width: 100%;
   height: 40px;
   margin: 5px;

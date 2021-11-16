@@ -5,7 +5,7 @@
        <h2  v-if="visible === true"
        :class="[islogged ? 'login-success' : 'login-failed','msg']"
        >{{text}}</h2>
-    <div class="form-control">
+    <div class="formcontrol">
 
       <v-text-field
              class="email"
@@ -18,7 +18,7 @@
             >   </v-text-field>
             <i class="fa fa-envelope icon"></i>
     </div>
-    <div class="form-control">
+    <div class="formcontrol">
    
        <v-text-field
             v-model="password"
@@ -163,23 +163,23 @@ h1{
   
   margin-bottom: 40px;
 }
-.form-control {
+.formcontrol {
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 20px 0;
 }
-.form-control label {
+.formcontrollabel {
   display: block;
 }
-.form-control input {
+.formcontrol input {
   width: 100%;
   height: 40px;
   margin: 5px;
   padding: 3px 7px;
   font-size: 17px;
 }
-.form-control-check {
+.formcontrol-check {
   display: flex;
   align-items: center;
   justify-content: space-between;
